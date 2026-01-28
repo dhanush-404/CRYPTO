@@ -48,7 +48,7 @@ case $opt in
 
 2)
     echo "[ DES Selected ]"
-    read -p "Enter input message file(path): " file
+    read -p "Enter input message file name or (path): " file
 
     echo "1) Encrypt"
     echo "2) Decrypt"
@@ -78,7 +78,7 @@ case $opt in
         echo "   - public.pem"
 
     elif [ "$ch" == "2" ]; then
-        read -p "Enter input message file(path): " file
+        read -p "Enter input message file or (path): " file
         openssl rsautl -encrypt -pubin -inkey public.pem -in "$file" -out rsa_enc.bin
         echo "✅ RSA encrypted file created: rsa_enc.bin"
 
