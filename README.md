@@ -23,6 +23,7 @@ The setup script installs required dependencies and automatically launches the t
 
       echo "Hello World" > msg.txt
 
+
 ### Run the tool manually (optional):
 
       ./crypto_tool.sh
@@ -32,7 +33,7 @@ The setup script installs required dependencies and automatically launches the t
 
 - Select AES / DES / RSA
 - Choose encrypt or decrypt
-- Enter the file path of the message
+- Enter the file path of the message , if the file is in this CRYPTO directory no need for path just enter the file name
 -  Enter the password/key when prompted
 - Output files are created automatically after each operation.
 
