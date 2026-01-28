@@ -31,7 +31,7 @@ case $opt in
  
 1)
     echo "[ AES Selected ]"
-    read -p "Enter input message file(path): " file
+    read -p "Enter input message filename or (path): " file
 
     echo "1) Encrypt"
     echo "2) Decrypt"
