@@ -24,7 +24,7 @@ The setup script installs required dependencies and automatically launches the t
       echo "Hello World" > msg.txt
 
 
-### Run the tool manually (optional):
+### Run the tool manually :
 
       ./crypto_tool.sh
 
